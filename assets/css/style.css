@@ -4,7 +4,10 @@
     padding: 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+/* navegador */
 .menu{
     background-color: #3359ec;
 
@@ -13,11 +16,129 @@
     list-style: none;
     display: flex;
     justify-content: center;
-}
-.navigator li{
-    padding: 2rem;
+    width: 100%;
+    position: fixed;
+    background-color: #3359ec;
 }
 .link{
+    padding: 2rem;
+}
+.link a{
     text-decoration: none;
     color: #fff;
+}
+/* Navegador */
+
+/* menção */
+header{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+#rocket{
+    display: flex;
+    justify-content: center;
+}
+.frase{
+    font-size: 2vw;
+    font-weight: 700;
+    color: #3359ec;
+    
+}
+.cortela{
+    font-size:1vw;
+    font-weight: 500;
+    color: #0066ff;
+    
+}
+.rocket{
+    width: 20vw;
+}
+/* menção */
+/* Sobremim */
+
+#sobre-mim{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: #3359ec;
+}
+.perfil{
+    width: 80%;
+    border-radius: 50%;
+}
+#sobre-mim div p{
+    font-size: 1.1vw;
+    text-align: justify;
+    color: #fff;
+    line-height: 2.5rem;
+ }
+ #projetos{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 3rem;
+ }
+ #projetos div img{
+     display: block;
+     margin: auto;
+ }
+ #projetos div{
+     padding: 2rem;
+ }
+ #projetos div h2{
+     text-align: center;
+     padding: 2rem;
+ }
+ #projetos div p{
+     text-align: justify;
+ }
+ #projetos button{
+     border: 1px solid #3359ec;
+     background-color: #fff;
+     color: #3359ec;
+     padding: 1rem;
+     font-size: .8vw;
+     border-radius: .5rem;
+     display: block;
+     margin: auto;
+     margin-top: 2rem;
+     cursor: pointer;
+     font-weight: 600;
+     transition: 0.6s ease-out;
+ }
+ #projetos button:hover{
+    border: 1px solid #fff;
+    background-color: #3559ec;
+    color: #fff;
+    transform: scale(1.2);
+}
+#habilidades{
+    padding: 3rem 10rem 3rem 10rem;
+    background-color: #d7e7ff;
+}
+#habilidades h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+#habilidades p{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#habilidades div{
+    display: flex;
+    border: 1px solid #3559ec;
+    border-radius: 1rem;
+}
+.html{
+    background-color: #3359ec;
+    color: white;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 80%;
 }
